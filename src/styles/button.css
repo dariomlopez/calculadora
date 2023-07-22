@@ -1,0 +1,30 @@
+.button-cont {
+  height: 80px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 35px;
+  background-color: rgb(188, 236, 248);
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-cont:hover {
+  background: linear-gradient(0deg, rgb(213, 238, 166), #ff6600);
+}
+
+.operator {
+  background-color: rgb(40, 47, 99);
+  font-weight: 900;
+  color: rgb(236, 239, 242);
+}
+
+.operator:hover {
+  background: linear-gradient(0deg, #e9e09a, rgb(229, 160, 86));
+  color: black;
+}
