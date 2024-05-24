@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">Calculator</h1>
+      <h1 className="title">Calculadora</h1>
       <div className="calculator-container">
         <ScreenResult input={input}/>
         <div className="row">
