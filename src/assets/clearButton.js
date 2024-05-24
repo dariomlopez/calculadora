@@ -10,7 +10,7 @@ const ClearButton = (properties) => (
     o hacerlo:
     (properties) => (
       <div className="clear-button">
-      {properties.childre} y en App.js ponerle su valor
+      {properties.children} y en App.js ponerle su valor
       </div>
     ) */}
     Clear     
