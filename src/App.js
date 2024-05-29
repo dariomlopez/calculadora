@@ -12,7 +12,7 @@ function App() {
     setInput(input + value);
   };
   const result = () => {
-    if (input == ""){
+    if (input === ""){
       alert("Ingrese algún valor")
     } else {
       setInput(evaluate(input));
